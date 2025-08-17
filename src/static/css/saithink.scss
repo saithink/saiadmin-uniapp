@@ -1,0 +1,28 @@
+page {
+    background-color: #f9fafb;
+}
+
+uni-toast {
+    z-index: 39999 !important;
+}
+
+uni-toast .uni-sample-toast {
+    z-index: 40000 !important;
+}
+
+.footer-fixed {
+    position: fixed;
+    width: 100%;
+    bottom: calc(60rpx + env(safe-area-inset-bottom));
+    z-index: 1024;
+    box-shadow: 0 1rpx 6rpx rgba(0, 0, 0, 0);
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    height: 80rpx;
+    color: #fff;
+}

@@ -10,6 +10,7 @@
 <h1>SaiAdmin Uniapp</h1>
 
 基于<a href="https://saithink.top" target="_blank">saiadmin</a> 移动端开发框架
+
 <h1>安装</h1>
 
 <h2>后端安装</h2>
@@ -25,8 +26,15 @@ git clone https://gitee.com/saigroup/saiadmin-uniapp.git
 ```
 
 或者
+
 ```bash
 git clone https://github.com/saithink/saiadmin-uniapp.git
+```
+
+安装依赖
+
+```bash
+npm install
 ```
 
 <h1>功能介绍</h1>
@@ -47,7 +55,7 @@ git clone https://github.com/saithink/saiadmin-uniapp.git
 
 • 内置 `钉钉` 的登录
 
-• 支持`vscode`开发，对ai工具支持友好
+• 支持`vscode`开发，对 ai 工具支持友好
 
 • 多环境配置，支持本地`h5`配置代理，以及线上打包地址环境分离
 
@@ -65,7 +73,6 @@ git clone https://github.com/saithink/saiadmin-uniapp.git
 <p>演示密码：123456</p>
 
 <p>前端地址： <a href="https://demo.saithink.top/h5">https://demo.saithink.top/h5</a></p>
-
 
 <h1>共同交流</h1>
 
@@ -85,7 +92,6 @@ git clone https://github.com/saithink/saiadmin-uniapp.git
 如果您正在使用这个项目并感觉良好，或者是想支持我继续开发，您可以通过如下`任意`方式支持我：
 
 谢谢！ ❤️
-
 
 |                                       微信                                       |                                      支付宝                                      |
 | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |

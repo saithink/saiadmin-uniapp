@@ -1,0 +1,140 @@
+{
+    "pages": [
+        {
+            "path": "pages/tabbar/index/index",
+            "style": {
+                "navigationBarTitleText": "首页"
+            }
+        },
+        {
+            "path": "pages/tabbar/news/news",
+            "style": {
+                "navigationBarTitleText": "资讯"
+            }
+        },
+        {
+            "path": "pages/tabbar/my/my",
+            "style": {
+                "navigationBarTitleText": "个人中心"
+            }
+        },
+        {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录中心"
+            }
+        },
+        {
+            "path": "pages/common/profile/profile",
+            "style": {
+                "navigationBarTitleText": "账号设置"
+            }
+        },
+        {
+            "path": "pages/common/logs/logs",
+            "style": {
+                "navigationBarTitleText": "日志中心"
+            }
+        },
+        {
+            "path": "pages/common/article/article",
+            "style": {
+                "navigationBarTitleText": "文章详情",
+                "navigationStyle": "default"
+            }
+        },
+        {
+            "path": "pages/common/agreement/agreement",
+            "style": {
+                "navigationBarTitleText": "协议"
+            }
+        },
+        {
+            "path": "pages/common/login/account/account",
+            "style": {
+                "navigationBarTitleText": "账号登录"
+            }
+        },
+        {
+            "path": "pages/common/register/account/account",
+            "style": {
+                "navigationBarTitleText": "账号注册"
+            }
+        },
+        {
+            "path": "pages/common/register/forgot/forgot",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        },
+        {
+            "path": "pages/common/login/phone/phone",
+            "style": {
+                "navigationBarTitleText": "手机号登录"
+            }
+        },
+        {
+            "path": "pages/common/login/mini/mini",
+            "style": {
+                "navigationBarTitleText": "小程序登录"
+            }
+        },
+        {
+            "path": "pages/common/login/wechat/wechat",
+            "style": {
+                "navigationBarTitleText": "微信登录"
+            }
+        },
+        {
+            "path": "pages/common/login/work/work",
+            "style": {
+                "navigationBarTitleText": "企业微信登录"
+            }
+        },
+        {
+            "path": "pages/common/login/dingtalk/dingtalk",
+            "style": {
+                "navigationBarTitleText": "钉钉登录"
+            }
+        }
+    ],
+    "globalStyle": {
+        // #ifdef H5
+        "maxWidth": 750,
+        "rpxCalcMaxDeviceWidth": 750,
+        "rpxCalcBaseDeviceWidth": 560,
+        "rpxCalcIncludeWidth": 9999,
+        // #endif
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#5677FC",
+        "h5": {
+            "navigationStyle": "custom"
+        }
+    },
+    "uniIdRouter": {},
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#5677FC",
+        "backgroundColor": "#FFFFFF",
+        "list": [
+            {
+                "pagePath": "pages/tabbar/index/index",
+                "text": "首页",
+                "iconPath": "static/images/tabbar/home_gray.png",
+                "selectedIconPath": "static/images/tabbar/home_active.png"
+            },
+            {
+                "pagePath": "pages/tabbar/news/news",
+                "text": "资讯",
+                "iconPath": "static/images/tabbar/news_gray.png",
+                "selectedIconPath": "static/images/tabbar/news_active.png"
+            },
+            {
+                "pagePath": "pages/tabbar/my/my",
+                "text": "我的",
+                "iconPath": "static/images/tabbar/person_gray.png",
+                "selectedIconPath": "static/images/tabbar/person_active.png"
+            }
+        ]
+    }
+}
